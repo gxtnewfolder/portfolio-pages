@@ -28,3 +28,13 @@
     hsla(242, 74%, 61%, 0.8)
   )!important;
 }
+
+.image-switcher-container.transition-in {
+  opacity: 1; /* Set the initial opacity to 0 when the image is not visible */
+  transition: opacity 0.5s; /* Add a transition for opacity */
+}
+
+.image-switcher-container.transition-out {
+  opacity: 0; /* Set the initial opacity to 0 when the image is not visible */
+  transition: opacity 0.5s; /* Add a transition for opacity */
+}
