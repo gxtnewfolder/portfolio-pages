@@ -13,7 +13,7 @@ const Skill = () => {
                   <div className='opacity-75 shadow-md shadow-[#040c16] p-5 rounded-lg hover:scale-110 duration-500 hover:opacity-100'>
                       <div className=''>
                         <div className='text-lg border-b'>Programming languages</div>
-                        <div className='text-base mt-3'>
+                        <div className='mt-3 text-sm'>
                             <div>C</div>
                             <div>C++</div>
                             <div>C#</div>
@@ -26,7 +26,7 @@ const Skill = () => {
                   <div className='opacity-75 shadow-md shadow-[#040c16] p-5 rounded-lg hover:scale-110 duration-500 hover:opacity-100'>
                       <div className=''>
                         <div className='text-lg border-b'>Front-End Web Development</div>
-                        <div className='text-base mt-3'>
+                        <div className='mt-3 text-sm'>
                             <div>React.js</div>
                             <div>Svelte</div>
                             <div>Tailwind CSS</div>
@@ -36,7 +36,7 @@ const Skill = () => {
                   <div className='opacity-75 shadow-md shadow-[#040c16] p-5 rounded-lg hover:scale-110 duration-500 hover:opacity-100'>
                       <div className=''>
                         <div className='text-lg border-b'>Back-End Web Development</div>
-                        <div className='text-base mt-3'>
+                        <div className='mt-3 text-sm'>
                             <div>Node.js</div>
                             <div>ASP.NET Core</div>
                         </div>
@@ -45,7 +45,7 @@ const Skill = () => {
                   <div className='opacity-75 shadow-md shadow-[#040c16] p-5 rounded-lg hover:scale-110 duration-500 hover:opacity-100'>
                       <div className=''>
                         <div className='text-lg border-b'>Robotics and Automation</div>
-                        <div className='text-base mt-3'>
+                        <div className='mt-3 text-sm'>
                             <div>PLC</div>  
                         </div>
                       </div>
@@ -53,7 +53,7 @@ const Skill = () => {
                   <div className='opacity-75 shadow-md shadow-[#040c16] p-5 rounded-lg hover:scale-110 duration-500 hover:opacity-100'>
                       <div className=''>
                         <div className='text-lg border-b'>Database System</div>
-                        <div className='text-base mt-3'>
+                        <div className='mt-3 text-sm'>
                             <div>MySQL</div>
                             <div>MSSQL</div>
                             <div>SQLite</div>
@@ -63,15 +63,26 @@ const Skill = () => {
                   <div className='opacity-75 shadow-md shadow-[#040c16] p-5 rounded-lg hover:scale-110 duration-500 hover:opacity-100'>
                       <div className=''>
                         <div className='text-lg border-b'>AI / Machine Learning</div>
-                        <div className='text-base mt-3'>
+                        <div className='mt-3 text-sm'>
                             <div>OpenCV</div>
                         </div>
                       </div>
                   </div>
                   <div className='opacity-75 shadow-md shadow-[#040c16] p-5 rounded-lg hover:scale-110 duration-500 hover:opacity-100'>
                       <div className=''>
+                        <div className='text-lg border-b'>Tools</div>
+                        <div className='mt-3 text-sm'>
+                            <div>Visual studio (Microsoft, Desktop App)</div>
+                            <div>PowerBI (Data visualization)</div>
+                            <div>GX Works3 (PLC)</div>
+                            <div>Github</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div className='opacity-75 shadow-md shadow-[#040c16] p-5 rounded-lg hover:scale-110 duration-500 hover:opacity-100'>
+                      <div className=''>
                         <div className='text-lg border-b'>Others</div>
-                        <div className='text-base mt-3'>
+                        <div className='mt-3 text-sm'>
                             <div>Embedded systems (Microcontroller / Microprocessor)</div>
                             <div>Arduino / ESP32 / IoT</div>
                         </div>
