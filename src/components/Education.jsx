@@ -24,7 +24,7 @@ const Education = () => {
 
   return (
     <div name="education" className="w-full h-[110vh] bg-[#0a192f] text-gray-300">
-      <div className="flex flex-col justify-center items-center w-full h-full px-5">
+      <div className="flex flex-col justify-center items-center w-full h-full p-5">
         <div className="max-w-[1024px] w-full">
           <div className="sm:text-left pb-6 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
