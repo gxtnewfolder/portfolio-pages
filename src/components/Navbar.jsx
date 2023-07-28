@@ -8,7 +8,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#0a192f] text-gray-300 z-10">
       <div className="text-2xl">Arnat Ngawsuwan</div>
 
       {/* menu */}
@@ -59,8 +59,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
+          <Link onClick={handleClick} to="education" smooth={true} duration={500}>
+            Education
           </Link>
         </li>
         <li className="py-6 text-4xl">

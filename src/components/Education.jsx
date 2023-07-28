@@ -23,10 +23,7 @@ const Education = () => {
   }, [images.length]);
 
   return (
-    <div
-      name="education"
-      className="w-full h-screen bg-[#0a192f] text-gray-300"
-    >
+    <div name="education" className="w-full h-[120vh] bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full px-8">
         <div className="max-w-[1024px] w-full">
           <div className="sm:text-left pb-8 pl-4">
