@@ -2,9 +2,9 @@ import React from 'react'
 
 const Skill = () => {
     return (
-      <div name="skills" className="w-full h-[150vh] bg-[#0a192f] text-gray-300">
+      <div name="skills" className="w-full h-[120vh] bg-[#0a192f] text-gray-300">
           {/* Container */}
-          <div className='max-w-[1024px] mx-auto p-4 flex flex-col justify-center w-full h-full px-8'>
+          <div className='max-w-[1024px] mx-auto p-5 flex flex-col justify-center w-full h-full'>
               <div>
                   <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
                   <p className='pt-4'>// These are the technologies I've worked with</p>
