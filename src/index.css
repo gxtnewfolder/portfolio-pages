@@ -39,6 +39,10 @@
   transition: opacity 0.5s; /* Add a transition for opacity */
 }
 
+.image-switcher-container {
+  transition: 0.3s ease-in-out;
+}
+
 .menu-hide {
   @apply fixed top-0 right-[-100%] w-full h-screen bg-[#0a192f] flex flex-col justify-start pt-12 pl-6;
   transition: 0.3s right;

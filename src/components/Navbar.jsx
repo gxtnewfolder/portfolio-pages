@@ -7,6 +7,9 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  const Email = () => {
+    return <Link href="https://example.com">Example</Link>;
+  };
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-[#0a192f] text-gray-300 z-10">
       <div className="text-2xl">Arnat Ngawsuwan</div>
@@ -42,24 +45,27 @@ const Navbar = () => {
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars className="scale-125" /> : <FaTimes className="scale-125" />}
+        {!nav ? (
+          <FaBars className="scale-125" />
+        ) : (
+          <FaTimes className="scale-125" />
+        )}
       </div>
 
       {/* Mobile menu */}
-      <ul
-        className={
-          !nav
-            ? "menu-hide"
-            : "menu-show"
-        }
-      >
+      <ul className={!nav ? "menu-hide" : "menu-show"}>
         <li className="py-5 text-xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-5 text-xl">
-          <Link onClick={handleClick} to="education" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="education"
+            smooth={true}
+            duration={500}
+          >
             Education
           </Link>
         </li>
@@ -102,7 +108,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#E84F4B] rounded-r-lg">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:arnat.ngaw@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
