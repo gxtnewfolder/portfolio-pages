@@ -15,11 +15,11 @@ const Home = () => {
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I am a third-year undergraduate student pursuing Automation
-          Engineering (International Program) at KMUTT, Thailand, with a
-          strong passion for Data Technology (Data Engineering, Data Science),
-          Industrial Automation, and Embedded Systems. Constantly improving my
-          programming skills and hungry for knowledge, I aspire to make
-          meaningful contributions in these dynamic fields.
+          Engineering (International Program) at KMUTT, Thailand, with a strong
+          passion for Data Technology (Data Engineering, Data Science), Web
+          Development, Industrial Automation, and Embedded Systems. Constantly
+          improving my programming skills and hungry for knowledge, I aspire to
+          make meaningful contributions in these dynamic fields.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-pink-600 hover:border-pink-600">

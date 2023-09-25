@@ -39,6 +39,8 @@ const Skill = () => {
                         <div className='mt-3 text-sm'>
                             <div>Node.js</div>
                             <div>ASP.NET Core</div>
+                            <div>ExpressJS</div>
+                            <div></div>
                         </div>
                       </div>
                   </div>
@@ -46,7 +48,7 @@ const Skill = () => {
                       <div className=''>
                         <div className='text-lg border-b'>Robotics and Automation</div>
                         <div className='mt-3 text-sm'>
-                            <div>PLC</div>  
+                            <div>PLC (SIEMENS, MITSUBISHI)</div>  
                         </div>
                       </div>
                   </div>
@@ -56,7 +58,7 @@ const Skill = () => {
                         <div className='mt-3 text-sm'>
                             <div>MySQL</div>
                             <div>MSSQL</div>
-                            <div>SQLite</div>
+                            <div>MongoDB</div>
                         </div>
                       </div>
                   </div>
@@ -75,7 +77,7 @@ const Skill = () => {
                             <div>Visual studio (Microsoft, Desktop App)</div>
                             <div>PowerBI (Data visualization)</div>
                             <div>GX Works3 (PLC)</div>
-                            <div>Github</div>
+                            <div>Git</div>
                         </div>
                       </div>
                   </div>

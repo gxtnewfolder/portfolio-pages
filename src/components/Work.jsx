@@ -7,6 +7,7 @@ import Inc272_4 from "../assets/works/1_4.png";
 const Work = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [Inc272_1, Inc272_2, Inc272_3, Inc272_4];
+  const images2 = [];
   const [isImageVisible, setIsImageVisible] = useState(true);
 
   useEffect(() => {
@@ -60,7 +61,36 @@ const Work = () => {
                 </a> */}
               </div>
             </div>
-          </div>   
+          </div>
+
+          {/* Grid Item */}   
+          <div
+            style={{ backgroundImage: `url(${images2[currentImageIndex]}) ` }}
+            className={`shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div ${
+              isImageVisible
+                ? "image-switcher-container"
+                : "image-switcher-container"
+            }`}
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                 SIM Detection
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/gxtnewfolder/sim_iraic">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    View
+                  </button>
+                </a>
+                <a href="https://github.com/gxtnewfolder/sim_iraic">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
